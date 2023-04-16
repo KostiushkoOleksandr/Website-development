@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.features-area {
+    background: -webkit-linear-gradient(right, #31b978 0%, #1ab69d 100%);
+    background: linear-gradient(-90deg, #31b978 0%, #1ab69d 100%);
+    margin-bottom: 60px;
+}
+
+.title {
+    cursor: pointer;
+}
+
+.container .section-title {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 46px;
+}
+
+.cat-1:hover,
+.category .title-1:hover {
+    background-color: #1AB69D;
+    color: #ffffff;
+}
+
+.cat-2:hover,
+.category .title-2:hover {
+    background-color: #EE4A62;
+    color: #ffffff;
+}
+
+.cat-3:hover,
+.category .title-3:hover {
+    background-color: #0ECD73;
+    color: #ffffff;
+}
+
+.cat-4:hover,
+.category .title-4:hover {
+    background-color: #F8B81F;
+    color: #ffffff;
+}
+
+.cat-5:hover,
+.category .title-5:hover {
+    background-color: #8E56FF;
+    color: #ffffff;
+}
+
+.cat-6:hover,
+.category .title-6:hover {
+    background-color: #F92596;
+    color: #ffffff;
+}
+
+.cat-7:hover,
+.category .title-7:hover {
+    background-color: #5866EB;
+    color: #ffffff;
+}
+
+.cat-8:hover,
+.category .title-8:hover {
+    background-color: #F8941F;
+    color: #ffffff;
+}
+
+.cat-9:hover,
+.category .title-9:hover {
+    background-color: #39C0FA;
+    color: #ffffff;
+}
+
+.content h5 {
+    font-size: 19px;
+    line-height: 1.45;
+}
+
+.features-grid-wrap {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    justify-items: flex-end;
+}
+
+.content .content-title-2 {
+    margin-right: 60px;
+}
+
+.features-box,
+.features-style {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.features-box,
+.features-style,
+.features-icon {
+    color: #ffffff;
+}
+
+
+.features-icon {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    margin: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+.content h5 {
+    margin-right: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 24px;
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 1.73;
+    font-weight: 400;
+    color: #808080;
+    margin: 0 0 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+}
+
+.container {
+    width: 1200px;
+}
+
+.features-box-end,
+.features-style-end {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    justify-items: flex-start;
+    align-items: center;
+    color: #ffffff;
+}
+
+h2 {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+h2::after {
+    content: url("../images/logo.png");
+    display: block;
+    position: absolute;
+    left: calc(50% - 60px);
+    margin-top: 5px;
+    justify-items: center;
+    align-items: center;
+}
+
+.categories {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.category {
+    margin: 1rem;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 0;
+    justify-content: center;
+    width: 380px;
+    background-color: rgba(26, 182, 157, 0.07);
+}
+
+.category div:first-child {
+    flex-basis: 25%;
+}
+
+.category div:last-child {
+    flex-basis: 60%;
+    padding-right: 30px;
+    font-size: 15px;
+    line-height:24px;
+    font-weight: 700;
+}

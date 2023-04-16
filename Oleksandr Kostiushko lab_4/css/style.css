@@ -1,0 +1,159 @@
+@font-face {
+    font-family: Digital;
+    src: url("https://db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot"),
+    url("https://db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../images/background.jpg");
+}
+
+.division,
+.multiplication,
+.plus,
+.minus {
+    background-color: #666666;
+}
+
+.equals {
+    background-color: #004566;
+}
+
+.grid-container {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    font-family: Share Tech Mono, monospace;
+    background-color: #4D4D4D;
+    font-size: 25px;
+    color: #ffffff;
+    outline: 1px solid #000000;
+    border: none;
+}
+
+.app1 {
+    display: grid;
+    border: 2px solid #47476b;
+    padding: 5px;
+    width: 320px;
+    position: relative;
+    height:395px;
+    background-color: #000000;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+	  "display display display display"
+	  "clear clear division multiplication"
+	  "seven eight nine minus"
+	  "four five six plus"
+	  "one two three equals"
+	  "zero zero dot equals";
+}
+
+.display {
+    align-self: end;
+    grid-area: display;
+    font-size: 29px;
+    font-family: digital;
+    color: white;
+    text-align: right;
+    line-height: 35px;
+}
+
+.clear {
+    grid-area: clear;
+    background: #AB3939;
+}
+
+.division {
+    grid-area: division;
+}
+
+.multiplication {
+    grid-area: multiplication;
+}
+
+.plus {
+    grid-area: plus;
+}
+
+.minus {
+    grid-area: minus;
+}
+
+.seven {
+    grid-area: seven;
+}
+
+.eight {
+    grid-area: eight;
+}
+
+.nine {
+    grid-area: nine;
+}
+
+.four {
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+}
+
+.three {
+    grid-area: three;
+}
+
+.two {
+    grid-area: two;
+}
+
+.one {
+    grid-area: one;
+}
+
+.dot {
+    grid-area: dot;
+}
+
+.zero {
+    grid-area: zero;
+}
+
+.equals {
+    grid-area: equals;
+}
+
+.six {
+    grid-area: six;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
